@@ -2,12 +2,5 @@ train: ../train/images
 val: ../valid/images
 test: ../test/images
 
-nc: 4
-names: ['Corrosion', 'Desgaste_Manguera', 'Falla_Piston', 'Humedecimiento']
-
-roboflow:
-  workspace: sugar-jv3ye
-  project: component-failure-detection-f9itg-jqyxp
-  version: 1
-  license: CC BY 4.0
-  url: https://universe.roboflow.com/sugar-jv3ye/component-failure-detection-f9itg-jqyxp/dataset/1
+nc: 1
+names: ['hose_damage']

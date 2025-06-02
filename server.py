@@ -10,7 +10,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Load the trained model once
-model = YOLO("runs/train/exp/weights/hose.pt")  # update path if needed
+model = YOLO("runs/train/exp_hose/weights/best.pt")  # update path if needed
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 print(f"Using device: {device}")
 

@@ -24,7 +24,7 @@ def main():
         device='cpu',    # force GPU
         workers=0,        # lower RAM/thread usage
         project='runs/train',
-        name='exp',
+        name='exp_hose',
         exist_ok=True
     )
 
